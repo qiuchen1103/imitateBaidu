@@ -1,0 +1,82 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  position: relative;
+  min-width: 1000px;
+}
+#wrapper #weather {
+  position: absolute;
+  z-index: 999;
+  top: 31px;
+  left: 0px;
+  width: 585px;
+  padding: 8px 15px;
+  font-size: 12px;
+}
+#wrapper #weather .weatherNav ul li {
+  float: left;
+  margin-left: 0.6em;
+}
+#wrapper #weather .weatherNav ul li:first-child {
+  margin-left: 0;
+}
+#wrapper #weather span {
+  float: right;
+}
+#wrapper #nav {
+  padding: 8px 15px;
+  border-bottom: 1px solid #c1c1c1;
+  overflow: hidden;
+  font-size: 12px;
+}
+#wrapper #nav .navCity,
+#wrapper #nav .navLeft {
+  float: left;
+}
+#wrapper #nav .navRight {
+  float: right;
+}
+#wrapper #nav .navCity li,
+#wrapper #nav .navLeft li,
+#wrapper #nav .navRight li {
+  float: left;
+  margin-left: 0.6em;
+}
+#wrapper #nav .navCity li:first-child,
+#wrapper #nav .navLeft li:first-child,
+#wrapper #nav .navRight li:first-child {
+  margin-left: 0;
+}
+#wrapper #search {
+  width: 540px;
+  margin: 0 auto;
+}
+#wrapper #search .searchLogo {
+  text-align: center;
+}
+#wrapper #search .searchLogo img {
+  width: 270px;
+  height: 129px;
+}
+#wrapper #search .searchInput {
+  text-align: center;
+}
+#wrapper #search .searchInput [type=text] {
+  width: 400px;
+  height: 20px;
+  padding: 10px 5px;
+  border: 1px solid #b8b8b8;
+  border-right: 0px;
+}
+#wrapper #search .searchInput [type=submit] {
+  width: 100px;
+  height: 42px;
+  margin-left: -8px;
+  border: 1px solid #38f;
+  background-color: #38f;
+  color: #fff;
+  font-size: 16px;
+}
